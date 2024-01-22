@@ -11,9 +11,10 @@ Some categories contain information that is incomplete for the multiple purposes
 Some of the postcoordination axes can get values from a smaller set of possible values such as Laterality whereas some axes can get values from a rather large value set such as Histopathology.
 
 - If the value set is small, the browser will show all possible values with their codes.
-- If the value set is large, you could search the valuesets by typing in the search box. The browser will search only the values for that axis. In addition to searching you could browse this sub-hierarchy using the hierarchy.
+- If the value set is large, you could search the valuesets by typing in the search box. The browser will search only the values for that axis. In addition to searching you could browse this sub-hierarchy using the ▷ icon. 
 
-Sometimes, even though the actual value set for an axis is large, not all values from the value set is applicable for a disease. In such cases, the browser will show/search only the relevant part. If the number of values that can be applied is less than 12, the browser will list all of them. If the result is larger than the browser will allow searching and browsing the axis.
+Sometimes, even though the actual value set for an axis is large, not all values from the value set is applicable for a disease. In such cases, the browser will show/search only the relevant part. If the number of values that can be applied is less than 12, the browser will list all of them. If the result is larger than the browser will allow searching and browsing the axis.     
+
 For example, Aneurysmal bone cyst can be post-coordinated with Specific Anatomic Detail but not all values are applicable. In such cases, the browser will display/search only the relevant ones. In the example below, when the user searches "head", the system only shows the hits that are in the 'bones' branch of the 'Specific anatomic detail' axis. 
 
 ![screenshot of the postcoordination search results](img/postcoordination-search.png "Postcoordination search results")
