@@ -1,0 +1,32 @@
+site_name: متصفح التصنيف-11 
+site_description: RTL # set it to RTL for using RTL CSS
+
+theme:
+    name: null
+    custom_dir: 'custom_readthedocs/'
+    static_templates:
+      - 404.html
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: bottom
+    navigation_depth: 3
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+
+plugins:
+    - search:
+        lang: ar
+
+markdown_extensions:
+  - footnotes
+
+nav:
+  - التصفح باستخدام التسلسل الهرمي: 'Browser.md'
+  - مساعدة البحث السريع: 'Quick-search.md'
+  - مساعدة البحث المتقدم: 'Advanced-search.md'
+  - ⁧⁩الربط اللاحق⁧⁩: 'Postcoordination.md'
