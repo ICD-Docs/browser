@@ -1,0 +1,31 @@
+site_name: Браузер МКБ-11 
+
+theme:
+    name: null
+    custom_dir: 'custom_readthedocs/'
+    static_templates:
+      - 404.html
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: bottom
+    navigation_depth: 3
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+
+plugins:
+    - search:
+        lang: ru
+
+markdown_extensions:
+  - footnotes
+
+nav:
+  - Просмотр с использованием иерархии: 'Browser.md'
+  - Справка по быстрому поиску: 'Quick-search.md'
+  - Справка по расширенному поиску: 'Advanced-search.md'
+  - Посткоординация: 'Postcoordination.md'
