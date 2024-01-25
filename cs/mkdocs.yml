@@ -18,7 +18,7 @@ theme:
 
 
 plugins:
-    - search:
+    - search
 
 markdown_extensions:
   - footnotes
