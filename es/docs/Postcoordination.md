@@ -45,7 +45,7 @@ Cuando no se permite usar varios valores para un eje y el usuario hace clic en u
 
 ## Equivalencia de poscoordinación/precoordinación
 
-En algunos casos, la combinación que crea el usuario puede ser equivalente a una entidad de la clasificación. En estos casos, cuando se cree el código, el sistema usará automáticamente el concepto precoordinado. En el ejemplo de abajo, el usuario ha seleccionado Carcinoma invasor de la mama y ha hecho la poscoordinación con Carcinoma infiltrante del conducto, SAI. Sin embargo, en vez de dar dos códigos, el sistema solo da uno porque en la clasificación hay una categoría para esta combinación (2D00 carcinoma invasor de la mama) que, por tanto, se da como código. 
+En algunos casos, la combinación que crea el usuario puede ser equivalente a una entidad de la clasificación. En estos casos, cuando se cree el código, el sistema usará automáticamente el concepto precoordinado. En el ejemplo de abajo, el usuario ha seleccionado Carcinoma invasor de la mama y ha hecho la poscoordinación con Carcinoma infiltrante del conducto, SAI. Sin embargo, en vez de dar dos códigos, el sistema solo da uno porque en la clasificación hay una categoría para esta combinación (2C61.0 carcinoma invasor de la mama) que, por tanto, se da como código. 
 
 ![screenshot of the pre-coordination equivalence](img/pre-coordination.png "Pre-coordination equivalence")
 
