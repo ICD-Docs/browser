@@ -1,0 +1,31 @@
+site_name: User Guide 
+
+theme:
+    name: null
+    custom_dir: 'custom_readthedocs/'
+    static_templates:
+      - 404.html
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: none
+    navigation_depth: 3
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+
+plugins:
+    - search:
+        lang: en
+
+markdown_extensions:
+  - footnotes
+
+nav:
+  - Browsing using the hierarchy: 'Browser.md'
+  - Quick search help: 'Quick-search.md'
+  - Advanced search help: 'Advanced-search.md'
+  - Postcoordination: 'Postcoordination.md'

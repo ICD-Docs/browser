@@ -1,4 +1,4 @@
-${lang} = "en" # select a language: ar cs de en es fr pl pt ru sk tr zh uz 
+${lang} = "en" # select a language: ar cs de en es fr kk pl pt ru sk sv tr zh uz 
 
 Write-Output "current language: ${lang}"
 
