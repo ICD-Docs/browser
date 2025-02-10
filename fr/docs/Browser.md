@@ -16,7 +16,7 @@ Initialement, le système n'affiche que les éléments du niveau supérieur. Tou
 ![screenshot of the hierarchy expanded](img/hierarchy-expanded.png "Hierarchy expanded")
 
 
-## Multilingual browsing: using two languages simultaneously
+## Navigation multilingue : utiliser deux langues simultanément
 
 The browser is available in several languages. To select your preferred language, use the menu located at the top corner of the webpage, as shown in the screenshot.
 
