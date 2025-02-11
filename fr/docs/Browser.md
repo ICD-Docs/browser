@@ -18,7 +18,7 @@ Initialement, le système n'affiche que les éléments du niveau supérieur. Tou
 
 ## Navigation multilingue : utiliser deux langues simultanément
 
-The browser is available in several languages. To select your preferred language, use the menu located at the top corner of the webpage, as shown in the screenshot.
+Le navigateur est disponible en plusieurs langues. Pour sélectionner votre langue préférée, utilisez le menu situé dans le coin supérieur de la page Web, comme indiqué dans la capture d'écran ci-dessous.
 
 ![screenshot of the multilingual menu](img/multilingual.png "Multilingual menu")
 
