@@ -53,4 +53,4 @@ Dans certains cas, la combinaison construite par l'utilisateur peut être équiv
 
 ## Postcoordination nichée
 
-Dans certains cas, le système peut permettre de spécifier davantage les valeurs de postcoordination. (c'est-à-dire la postcoordination de valeurs de postcoordination).
+Dans certains cas, le système peut permettre de spécifier davantage les valeurs de postcoordination. (c'est-à-dire la postcoordination de valeurs de postcoordination). (test)
