@@ -1,36 +1,36 @@
-﻿# ICD-11 Browser
+﻿# XKT-11 Brauzer
 
-ICD-11 Browser is a web site that allows users see the content of the ICD 11th Revision
+XKT-11 Brauzer — bu foydalanuvchilarga XKTning 11-nashr kontentini ko‘rishga imkon beradigan veb-sahifa. 
 
-This User Guide provides details on the usage of the site. You may navigate the user guide by using the links on the left or go back to the ICD-11 Browsing by using the menus. Below are several important information that will help you use the site more efficiently. 
+Ushbu Foydalanuvchi qo‘llanmasida sahifadan foydalanish bo‘yicha batafsil ma’lumot beriladi. Siz qo‘llanmada chap tomondagi havolalar orqali o'tkazishingiz yoki menyular orqali XKT-11 Brauzer sahifasiga qaytishingiz mumkin. Quyida sahifadan samaraliroq foydalanishingizga yordam beradigan muhim ma’lumotlar keltirilgan.  
 
 
-## Browsing using the hierarchy
+## Iyerarxiya orqali ko'rish
 
-When browsing ICD-11, you will see the classification hierarchy on the left side of the screen. Clicking on any item will display the details of that entity on the right side of the screen
+XKT-11 ni ko‘rayotganingizda, tasniflash ierarxiyasi ekraning chap tomonida aks etadi. Istalgan elementni bosganingizda, uning tafsilotlari ekraning o‘ng tomonida ko‘rinadi. 
 
 ![screenshot of the hierarchy and entity displayed](img/hierarchy.png "Hierarchy and entity displayed")
 
-Initially, the system only shows the top level items. However, you may make the children visible by clicking on the small triangles on the left side of the items. 
+Dastlab, tizim faqat yuqori darajadagi elementlarni ko‘rsatadi. Biroq, elementlarning chap tomonidagi kichik uchburchaklarni bosish orqali ularning quyi bo‘g‘inlarini ko‘rish mumkin.  
 
 ![screenshot of the hierarchy expanded](img/hierarchy-expanded.png "Hierarchy expanded")
 
 
-## Multilingual browsing: using two languages simultaneously
+## Ko‘p tilli ko‘rish: ikki tilni bir vaqtda ishlatish 
 
-The browser is available in several languages. To select your preferred language, use the menu located at the top corner of the webpage, as shown in the screenshot.
+Brauzer bir nechta tillarda mavjud. Sizga qulay tilni tanlash uchun, sahifaning yuqori burchagida joylashgan menyudan foydalaning, rasmda ko‘rsatilganidek. 
 
 ![screenshot of the multilingual menu](img/multilingual.png "Multilingual menu")
 
-The first column of the language menu sets the browser language. The second column of the language menu allows you to set a secondary language for browsing, enabling simultaneous use of two languages. Refer to the screenshot below, which shows an example of browsing English and Chinese simultaneously.
+Til menyusining birinchi ustuni brauzer tilini belgilaydi. Til menyusining ikkinchi ustuni esa ko‘rish uchun ikkinchi tilni tanlash imkonini beradi, bu esa ikki tilni bir vaqtda ishlatishga sharoit yaratadi. Quyidagi rasmda ingliz va xitoy tillarini bir vaqtda ko‘rish misoli keltirilgan. 
 
 ![screenshot of browsing two languages simultaneously](img/browser-second-language.png "Browsing two languages simultaneously")
 
 
-## How to resize the hierarchy horizontally
+## Qanday qilib iyerarxiyani gorizontal o'lchamini o'zgartirish
 
-Move your mouse cursor over the bottom-right edge of the hierarchy. Once you see the resize cursor, click and hold the left mouse button. Drag the edge of the element left or right to adjust its width. 
+Sichqoncha bilan kursorni iyerarxiyaning pastki o'ng chetiga olib boring. O'lchamni o'zgartirish kursorini ko'rganingizdan so'ng, sichqonchaning chap tugmasini bosing va ushlab turing. Elementning kengligini sozlash uchun uning chetini chapga yoki o'ngga torting. 
 
 ![screenshot of how to resize](img/browser-resize.png "Browser resize")
 
-Resizing is also available between the two browser contents when using two languages simultaneously.
+Bir vaqtni o'zida ikkita til ishlatilganda ham ular o'rtasidagi o'lchamni o'zgartirish imkoni mavjud.

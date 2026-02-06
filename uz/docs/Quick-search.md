@@ -1,9 +1,9 @@
-﻿# Quick search help
+﻿# Tezkor qidirish bo'yicha yordam
 
-Quick search helps you quickly navigate to a particular category. It searches the titles, inclusions, synonyms and narrower terms and it works by starting to search as you type and provide you options in a dynamic dropdown list.
+Tezkor qidirish sizga ma'lum bir toifaga tezda o'tishga yordam beradi. U sarlavhalar, qo'shimchalar, sinonimlar va tor ma'noli atamalarni qidiradi ba siz terayotganizda qidiruvni boshlash va dinamik ochiladigan ro'yxatda sizga variantlarni taqdim etish orqali ishlaydi. 
 
 ![screenshot of the quick search](img/search.png "Quick search")
 
-Clicking on one of the entities that appear in the list will load the entity.
+Ro'yxatda ko'rsatilgan obyektlardan birini bosish shu obyektni yuklaydi.
 
-The results are sorted by how good the text entered matches the phrase in ICD. It is also grouped by using the ICD hierarchy so that if the search text matches a parent category and several children, they will appear in a fashion that is easy to identify this relation visually. The list shows only the titles or the best match among the matched terms if the title is not a match.
+Natijalar kiritilgan matn XKTdagi iboraga qanchalik mos kelishiga qarab tartiblangan. Natijalar XKT iyerarxiyasidan foydalanib guruhlangan, shunda agar qidiruv matni yuqori darajadagi toifa va bir nechta bola toifasiga mos kelsa, ular bu munosabatni vizual aniqlash oson bo'lgan tarzda ko'rsatiladi. Ro'yxatda faqat sarlavhalar yoki agar sarlavha mos kelmasa, mos keladigan atamalar orasidagi eng yaxshi mos keladigani ko'rsatiladi. 

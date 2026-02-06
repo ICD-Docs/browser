@@ -1,1 +1,1 @@
-﻿# User Guide
+﻿# Foydalanuvchi qo'llanmasi

@@ -1,56 +1,56 @@
-﻿# Postcoordination
+﻿# Post-muvofiqlashtirish (Postkoordinatsiya)
 
-The postcoordination system allows adding more detail to the entity that is chosen. Different types of information can be added to different elements. For example, additional 'Histopathology' information could be added to most of the Neoplasm categories but it cannot be added to the categories elsewhere in the classification.
+Post-muvofiqlashtirish tizimi tanlangan obyektga qo'shimcha tafsilotlarni qo'shish imkonini beradi. Turli elementlarga turli xil ma'lumotlarni qo'shish mumkin. Misol uchun, ko'p o'sma toifalariga "gistopatologiya" ma'lumotlarini qo'shish mumkin, lekin tasnifning boshqa kategoriyalarga qo'shib bo'lmaydi.
 
-When you are on an entity in the ICD-11 Browser, the postcoordination area will only show the possible postcoordination axes that are applicable to that entity
+XKT-11 brauzeridagi obyektda bo'lganingizda, post-muvofiqlashtirish maydoni faqat o'sha obyektga tegishli va qo'ysa bo'ladigan postkoordinatsiya o'qlarini ko'rsatadi. 
 
-Some categories contain information that is incomplete for the multiple purposes of ICD. In such cases the note (code also) indicates that information needs to be added for that axis.
+Ba'zi kategoriyalarda XKTning ko'p maqsadlari uchun to'liq bo'lmagan ma'lumotlar mavjud. Bunday hollarda, eslatma (kod ham) ushub o'q uchun ma'lumot qo'shilishi kerakligini ko'rsatadi. 
 
-## Displaying / Searching value sets
+## Qiymat to'plamlarini ko'rsatish/qidirish
 
-Some of the postcoordination axes can get values from a smaller set of possible values such as Laterality whereas some axes can get values from a rather large value set such as Histopathology.
+Ba'zi post-muvofiqlashtirish o'qlari Laterallik kabi kichikroq bo'lgan qiymatlar to'plamidan, ba'zi o'qlar esa Gistopatologiya kabi ancha katta qiymatlar to'plamidan qiymatlarni olishi mumkin. 
 
-- If the value set is small, the browser will show all possible values with their codes.
-- If the value set is large, you could search the valuesets by typing in the search box. The browser will search only the values for that axis. In addition to searching you could browse this sub-hierarchy using the ▷ icon. 
+- Agar qiymatlar to'plami kichik bo'lsa, brauzer barcha mumkin bo'lgan qiymatlarni ularning kodlari bilan ko'rsatadi. 
+- Agar qiymatlar to'plami katta bo'lsa, siz qidirish maydoniga yozib qiymatlar to'plamlarini qidirishingiz mumkin. Brauzer faqa shu o'q uchun qiymatlarni qidiradi. Qidiruvdan tashqari, siz ushbu kichik iyerarxiyani ▷ belgisi yordamida ko'rib chiqishingiz mumkin.  
 
-Sometimes, even though the actual value set for an axis is large, not all values from the value set is applicable for a disease. In such cases, the browser will show/search only the relevant part. If the number of values that can be applied is less than 12, the browser will list all of them. If the result is larger than the browser will allow searching and browsing the axis.     
+Ba'zan, o'q uchun o'rnatilgan qiymatlar to'plami katta bo'lsa ham, to'plamdagi barcha qiymatlar ham kasallik uchun tegishli emas. Bunday hollarda, brauzer faqat tegishli qismini ko'rsatadi/qidiradi. Agar qo'llanilishi mumkin bo'lgan qiymatlar soni 12dan kam bo'lsa, brauzer ularning barchasini ko'rsatadi. Agar natija kattaroq  bo'lsa, brauzer o'qlarni qidirishni va ko'rishni imkonini beradi.      
 
-For example, Aneurysmal bone cyst can be post-coordinated with Specific Anatomic Detail but not all values are applicable. In such cases, the browser will display/search only the relevant ones. In the example below, when the user searches "head", the system only shows the hits that are in the 'bones' branch of the 'Specific anatomic detail' axis. 
+Masalan, Anevrizmali suyak kistasini maxsus anatomik tafsilotlar bilan post-muvofiqlashtirish mumkin, ammo barcha qiymatlar ham tegishli emas. Bunday hollarda, brauzer faqat tegishlilarini ko'rsatadi/qidiradi. Quyidagi misolda, foydalanuvchi "Bosh"ni qidirganda, tizim faqat "maxsus anatomiya" o'qining "suyaklar" bo'limida joylashgan natijalarni ko'rsatadi.  
 
 ![screenshot of the postcoordination search results](img/postcoordination-search.png "Postcoordination search results")
 
-## Building a Code String
+## Kod satrini yaratish
 
-To build a code you need to click on the values that are displayed in the search results, in the hierarchy or in the shorter lists. The example below shows malignant neoplasm of breast detailed with laterality and specific anatomy. The code generated is shown at the top left area of postcoordination section.
+Kod yaratish uchun qidiruv natijalarida, iyerarxiyada yoki qisqaroq ro'yxatlarda ko'rsatilgan qiymatlarni bosishingiz kerak. Quyidagi misolda ko'krak bezidagi yomon sifatli neoplazmasi laterallik va maxsus anatomiya bilan batafsil ko'rsatilgan. Yaratilgan kod post-muvoviqlashtirish bo'limining yuqori chap qismida ko'rsatilgan.
 
 ![screenshot of how to build a code string](img/building-code-string.png "Building a code string")
 
-## Postcoordination using multiple values from the same axis
+## Bir o'qdagi bir nechta qiymatlardan foydalangan holda postkoordinatsiya 
 
-The system allows one value per axis for most of the postcoordination axes. For example, when post-coordinating with "severity" you can't pick the value "mild" and "moderate" at the same time. However, for certain axes, the system allows providing multiple values. The axes that allow multiple values are listed below:
+Tizim ko'pgina post-muvofiqlashtirish o'qlari uchun bir o'q uchun bitta qiymatga ruxsat beradi. Masalan, "jiddiylik"ni post-muvofiqlashtirish qilinganda, bir vaqtning o'zida "yengil" va "o'rtacha" qiymatlarni tanlay olmaysiz. Biroq, ba'zi o'qlar uchun tizim bir nechta qiymatlarni kiritishni imkon beradi. Bir nechta qiymatlarni kiritishga ruxsat berilgan o'qlar quyida keltirilgan: 
 
-- Associated with
-- Causing condition
-- Has manifestation
-- Specific anatomy
-- Infectious agents
-- Chemical agents
-- Medication
+- Bog'liq bo'lgan
+- Sabab bo'ladigan holat
+- Ko'rinishga ega
+- Maxsus anatomiya
+- Yuqumli agentlar
+- Kimyoviy agentlar
+- Dori-darmonlar
 
-For these axes, you may provide more than one value. For example, when postcoordination with specific anatomy is allowed, you may select more than one site
+Ushbu o'qlar uchun siz bir nechta qiymatni tanlashingiz mumkin. Misol uchun, maxsus anatomiyaga post-muvofiqlashtirish ruxsat berilganda, siz bir nechta joyni tanlashingiz mumkin. 
 
-And for some of the external causes axes, we allow multiple values only when they come from different blocks
+Va ba'zi tashqi sabablar o'qlari uchun bir nechta qiymatlarga faqat ular turli bloklardan kelgan hollarda ruxsat berilgan. 
 
-For example, when post-coordinating Unintentional land transport traffic event injuring a pedal cyclist using the Transport event descriptor axis, we can use one value from the block "VEHICLE USER ROLE OF PERSON INJURED IN TRANSPORT RELATED EVENT" and another from the block "COUNTERPART IN LAND TRANSPORT CRASH" but we can't use two values from the same block.
+Masalan, Transport hodisasi tavsiflovchi o'qidan foydalanib, velosipedchini qasddan bo'lmagan transport hodisasida jarohatlanganida post-muvofiqlashtirishda, "TRANSPORTGA BOG'LIQ HODISADA TRANSPORT FOYDALANUVCHISINING ROLI" blokidan bitta qiymat va "YER TRANSPORT HODISASIDAGI TOMON" blokidan boshqa qiymatni tanlashimiz mumkin, lekin bir xil blokdan ikkita qiymatdan foydalana olmaymiz.
 
-When multiple values for an axis is not allowed and the user clicks on the second one, the system will replace the existing value. For example, when you are post-coordinating with severity and have already chosen mild as a value, clicking on moderate will replace the mild value with the moderate value.
+Bir o'q uchun bir nechta qiymatlarga ruxsat berilmaganda va foydalanuvchi ikkinchisini tanlaganda, tizim mavjud qiymatni almashtiradi. Masalan, "jiddiylik" o'qida post-muvofiqlashtirish qilganda, oldin qiymatni "yengil"ni tanlagan bo'lsangiz, "o'rtacha" qiymatni bosganizda "yengil" qiymatni "o'rtacha" qiymatga almashtiradi. 
 
-## Postcoordination / pre-coordination equivalence
+## Post-muvofiqlashtirish/ oldingi-muvofiqlashtirish ekvivalentlik
 
-In certain cases the combination built by the user may be equivalent to an existing entity in the classification. In these cases, the system will automatically use the pre-coordinated concept when it's building a code. In the example below, the user has chosen Invasive carcinoma of breast and post-coordinated it with Infiltrating duct carcinoma, NOS. However, instead of giving two codes, the system gives just one code because in the classification there is a category for this combination i.e. 2C61.0 Invasive ductal carcinoma of breast and therefore it is given as the code.
+Ba'zi hollarda foydalanuvchi tomonidan yaratilgan kombinatsiya tasnifdagi mavjud obyektga teng bo'lishi mumkin. Bunday hollarda, tizim kod tuzishda avtomatik ravishda oldindan muvofiqlashtirilgan konsepsiyadan foydalanadi. Quyidagi misolda, foydalanuvchi "Ko'krak bezining mikroinvaziv karsinomasi"ni tanladi va uni "infiltrasiyalanuvchi nay karsinomasi" bilan muvofiqlashtirdi. Biroq, tizim ikkita kod berish o'rniga faqat bitta kod beradi, chunki tasnifda bu kombinatsiya uchun kategoriya mavjud, ya'ni 2C61.0 "Ko'krak bezining mikroinvaziv karsinomasi" va shuning uchun u kod sifatida beriladi.
 
 ![screenshot of the pre-coordination equivalence](img/pre-coordination.png "Pre-coordination equivalence")
 
-## Nested postcoordination
+## Ichki post-muvofiqlashtirish
 
-In certain cases the system may allow further specifiying the postcoordination values. (i.e postcoordinating the postcoordination values) 
+Ba'zi hollarda tizim post-muvofiqlashtirishdagi qiymatlarni qo'shimcha ravishda aniqlashtirishga ruxsat beradi (ya'ni, post-muvofiqlashtirishdagi qiymatlarni keyingi muvofiqlashtirish). 
